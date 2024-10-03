@@ -75,6 +75,7 @@
         <!-- Example of setting SDL hints from AndroidManifest.xml:
         <meta-data android:name="SDL_ENV.SDL_ANDROID_TRAP_BACK_BUTTON" android:value="0"/>
          -->
+         <meta-data android:name="com.android.graphics.injectLayers.enable" android:value="true"/>
 
         <activity android:name="SDLActivity"
             android:label="@string/app_name"
