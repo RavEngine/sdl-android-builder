@@ -1,6 +1,6 @@
 name: Update-Project
 on:  workflow_dispatch
-
+# Updates the SDL wrapper project java code
 jobs:
   update-project:
     name: Update Project
